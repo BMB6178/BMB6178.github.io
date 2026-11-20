@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Penn State AI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="https://psu.edu/resources/first-year-students/how-to-apply">Request Information</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.psu.edu/vist">Schedule a Visit</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://raise.psu.edu">Make a GIft</a>
+          </li>
+        </ul>
+        <form class="d-flex" action="https://www.google.com/search" method="GET">
+          <input class="form-control me-2" type="search" name="q" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/CybersecurityMonitoringServices.jpg" class="d-block w-100" alt="Artificial Intelligence cybersecurity monitorng">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Is AI right for me?</h1>
+            <p>Explore how Artifical Intelligence is transforming.
+              technology, solving real-world problems, and creating
+              new career opportunities.</p>
+            <p><a class="btn btn-lg btn-primary" href="#ai-right-for-me">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Discussion.jpg" class="d-block w-100" alt="Artificial Intelligence and digital technology">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>What You'll Study</h1>
+            <p>Discover how programming, machine learning, and data analysis 
+              prepares students to develop AI solutions and solve real-world problems.</p>
+            <p><a class="btn btn-lg btn-primary" href="#what-youll-study">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/Code3.jpg" class="d-block w-100" alt="Programming and Artificial Intelligence">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Supporting Courses</h1>
+            <p class="ms-auto" style="max-width: 650px;">
+              Explore how programming, mathematics, and technical coursework provide the foundation 
+              for understanding and applying artificial intelligence.</p>
+            <p><a class="btn btn-lg btn-primary" href="#supporting-courses">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-6">
+        <img src="images/Terms.jpg" class="rounded-circle" width="140" height="140" 
+        style="object-fit: cover;" alt="Artificial intelligence and digital technology">
+
+        <h2>Prospective Students</h2>
+        <p>Explore Penn State's Artificial Intelligence Methods and applications
+        degree program and discover how AI, machine learning, and data anaylsis can prepare
+        you for future career opportunities.</p>
+        <p><a class="btn btn-secondary" href="https://ist.psu.edu/degree-programs/undergraduate/artificial-intelligence-methods-and-applications/aima-major-requirements">Learn More &raquo;</a></p>
+      </div><!-- /.col-lg-6 -->
+
+      <div class="col-lg-6">
+        <img src="images/Video.jpg" class="rounded-circle" width="140" height="140"
+        style="object-fit: cover;" alt="Cybersecurity analyst working with computer systems">
+
+        <h2>Current Students</h2>
+        <p>Explore degree requirements, academic planning, support courses, and recourses available to help 
+          you succeed in Penn State's Artifical Intelligence Methods and Applications program.</p>
+        <p><a class="btn btn-secondary" href="https://ist.psu.edu/degree-programs/undergraduate/artificial-intelligence-methods-and-applications?">Learn More &raquo;</a></p>
+      </div><!-- /.col-lg-6 -->
+
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="ai-right-for-me">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Artificial Intelligence.<span class="text-muted">The Digital Future</span></h2>
+        <p class="lead">AI is transforming how we live, work, and interact with technology. Explore how AI, machine learning, and data 
+          analysis are being used to solve complex problems, improve decision-making, and create new opportunities across industries</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/Background.jpg" class="featurette-image img-fluid mx-auto" width="500" height="500"
+        style="object-fit: cover;" alt="Artificial intelligence and the digital future">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="what-youll-study">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Cybersecurity<span class="text-muted"> In an AI-Driven World.</span></h2>
+        <p class="lead">As cyber threats continue to evlove, AI plays an increasingly important role in protecting 
+          digital information. Discover how AI helps detect suspicious activity, identify vulnerabilities, 
+          and strengthen cybersecurity defenses against emerging threats.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="images/Course.jpg" class="featurette-image img-fluid mx-auto" width="500" height="500"
+        style="object-fit: cover;" alt="Cybersecurity and AI">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="supporting-courses">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">AI & Programming<span class="text-muted"> Building Tomorrow's Technology.</span></h2>
+        <p class="lead">Explore how programming, machine learning, and AI work together to develop intelligence applications,
+          automate complex tasks, nd create innovative solutions. Learn how these technologies are shaping the future of software
+          development and the telecommunication industry.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="images/Code3.jpg" class="featurette-image img-fluid mx-auto" width="500" height="500"
+        style="object-fit: cover;" alt="Artificial intelligence and computer programming">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!--Next Steps Section -->
+    <div class="row featurette">
+      <div class="col-md-12">
+        <h2 class="featurette-heading">
+        Next Steps.
+        <span class="text-muted">Start Your Penn State Journey.</span>
+      </h2>
+
+      <p class="lead">
+        Ready to explore your future in Artificial Intelligence?
+        Learn more about Penn State's degree program, admission requirements,
+        and opportunities available to students.</p>
+
+        <div class="row">
+          <div class="col-md-6">
+            <ul>
+              <li><a href="https://ist.psu.edu/degree-programs/undergraduate/artificial-intelligence-methods-and-applications/aima-major-requirements">Degree Requirements</a></li>
+              <li><a href="https://bulletins.psu.edu/undergraduate/colleges/information-sciences-technology/artificial-intelligence-methods-applications-bs/#suggestedacademicplantext">Suggested Academic Plan</a></li>
+              <li><a href="https://bulletins.psu.edu/search/?scontext=courses&search=a-i&caturl=%2Fundergraduate">Course Descriptions</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-6">
+            <ul>
+              <li><a href="https://bulletins.psu.edu/undergraduate/colleges/information-sciences-technology/artificial-intelligence-methods-applications-bs/#suggestedacademicplantext">Application Supporting Courses</a></li>
+              <li><a href="https://bulletins.psu.edu/undergraduate/colleges/information-sciences-technology/artificial-intelligence-methods-applications-bs/#suggestedacademicplantext">Technical Supporting Courses</a></li>
+              <li><a href="https://ist.psu.edu/degree-programs/undergraduate/artificial-intelligence-methods-and-applications?">Special Courses</a></li>
+            </ul>
+          </div>  
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+<!-- Back to Portfolio -->
+ <div class="back-to-portfolio">
+  <a href="../index.html">Back to Portfolio</a>
+ </div>
+ 
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>The Pennsylvania State University &copy; 2025  
+      &middot; <a href="www.psu.edu/privacy-and-legal-statements">Privacy</a> 
+      &middot; <a href="https://www.psu.edu/">Non-Discriminaction</a>
+      &middot; <a href="https://www.psu.edu/">Accessability</a>
+      &middot; <a href="https://www.psu.edu/">Legal</a>
+  </footer>
+</main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> 
+    <title> EJ & BB Partner Lab 2</title> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="greeting">Hello User!</h1>
+    <p id="message">Welcome! This page has customizable elements, feel free to explore!</p>
+    
+    <br>
+    <label>Enter your name here:</label>
+    <input type="text" id="name" name="name">
+
+    <br><br>
+    
+    <label for="newMessage">Enter your message here: </label>
+    <input type="text" id="newMessage" name="newMessage">
+
+    <br><br>
+
+    <label for="color">Choose a background color:</label>
+    <select id="color" name="color">
+        <option value="lightpink">Light Pink</option>
+        <option value="purple">Purple</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightyellow">Light Yellow</option>
+    </select>
+   
+    <br><br>
+   
+    <button onclick="changePage()">Submit</button>
+    <br><br>
+    
+    <label for="todo">Enter your to-do list here:</label>
+    <input type="text" id="todo" name="todo">
+    <br><br>
+
+    <button onclick="addToDo()">Add To-Do</button>
+   
+    <br><br>
+   
+    <ol id="todoList"></ol>
+   
+    <script src="script.js"></script>
+
+<!-- Back to Portfolio -->
+ <div style="text-align: center; margin: 30px auto;">
+    <a href="../index.html" style="display: inline-block; background-color: #3b70ff;
+    color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">
+    Back to Portfolio
+    </a>
+ </div>
+ 
+</body>
+</html>

@@ -1,0 +1,267 @@
+/* ======================================
+THE OLD SCHOOL VAULT
+Keeping the 1900s Spinning
+in 2026 and Beyond
+====================================== */
+
+/* General Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    background-color: #1c1c1c;
+    color: #f5e6c6c8;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4a151b;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 4px solid #c9a44c;
+}
+
+header h1 {
+    color: #f5d77b;
+    font-size: 42px;
+    margin: 0;
+}
+
+header p {
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #292929;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a{
+    color: #f5d77b;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Main Content */
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #f5d77b;
+    border-bottom: 2px solid #c9a44c;
+    padding-bottom: 10px;
+}
+
+/* Featured Albums - Flexbox */
+.album-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 20px 0;
+}
+
+/* Individual Album */
+.album {
+    width: 180px;
+    text-align: center;
+    background-color: #303030;
+    padding: 15px;
+    border: 1px solid #c9a44c;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+/* Album Images */
+
+img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Album Hover Effect */
+.album:hover {
+    transform: translateY(15px) scale(1.1);
+    background-color: #4a151b;
+} 
+
+/* Hidden Album Information */
+.album-extra {
+    display: none;
+    color: #f5d77b;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+} 
+
+/* Reveal Information When Hovering */
+.album:hover .album-extra {
+    display: block;
+}
+
+/* Album Titles */
+.album h3 {
+    color: #f5d77b;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.album p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Inventory Table */
+.inventory {
+    margin-top: 40px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #303030;
+}
+th {
+    background-color: #4a151b;
+    color: #f5d77b;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #c9a44c;
+}
+td {
+    padding: 12px;
+    border: 1px solid #666;
+}
+tr:nth-child(even) {
+    background-color: #3a3a3a;
+}
+tr:hover {
+    background-color: #51452d;
+}
+
+/* Footer */
+footer {
+    background-color: #4a151b;
+    color: #f5e6c8;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: 4px solid #c9a44c;
+}
+footer p {
+    margin: 5px;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 30px;
+    }
+}
+.album-container {
+    justify-content: center;
+}
+.album {
+    width: 180px;
+}
+nav a {
+    display: inline-block;
+    margin: 8px;
+}
+
+/* =======================
+   About Us Page
+   ===================== */
+
+/* About the Store */
+.about-store {
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+/* Float the store image to the Left */
+.store-image {
+    float: left;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px 25px 15px 0;
+    border: 3px solid #c9a44c;
+    border-radius: 8px;
+}
+
+/* Our Mission */
+.mission {
+    clear: both;
+    margin-bottom: 40px;
+}
+
+/* Vinyl Experience */
+.vinyl-feature {
+    margin-bottom: 40px;
+}
+
+/* Relative positioning */
+.feature-box {
+    position: relative;
+    background-color: #303030;
+    padding: 25px;
+    border: 1px solid #c9a44c;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/* Absolute positioning */
+.feature-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4a151b;
+    color: #f5d77b;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+/* Vinyl photograph */
+.feature-image {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    height: 250px;
+    object-fit: cover;
+    margin: 35px auto 20px;
+    border-radius: 8px;
+}
+
+/* Mobile Layout */
+@media (max-width: 600px) {
+    .store-image {
+        float: none;
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: 15px auto;
+    }
+}

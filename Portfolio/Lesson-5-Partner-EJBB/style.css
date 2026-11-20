@@ -1,0 +1,40 @@
+body {font-family: "Times New Roman", Times, serif; 
+    margin: 30px;}
+
+h1 {font-family: "Courier New", Courier, monospace; 
+    color: darkblue;}
+
+p {
+    font-size: 18px;}
+
+label {
+    font-weight: bold;}
+
+input, select {
+    padding: 5px;
+    margin: 5px;}
+
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;}
+
+ol {
+    font-size: 18px;}
+
+/* Back to Portfolio Link */
+.back-to-portfolio {
+  text-align: center;
+  margin: 30px auto;
+}
+.back-to-portfolio a {
+  display: inline-block;
+  background-color: #3b70ff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.back-to-portfolio a:hover {
+  background-color: #2855cc;
+}
